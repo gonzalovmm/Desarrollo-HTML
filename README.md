@@ -12,12 +12,11 @@ Este proyecto es un ejemplo básico de un documento HTML con las siguientes secc
     Pie de Página: Información adicional en el <footer>.
 
 Los estilos se aplican inline en las etiquetas HTML.
+
 Cómo Ejecutar el Proyecto
 
     Clona el repositorio desde GitHub:
 
-    bash
-
-git clone https://github.com/gonzalovmm/Desarrollo-HTML
+    git clone https://github.com/gonzalovmm/Desarrollo-HTML
 
 Abre el archivo index.html en tu navegador web.
