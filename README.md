@@ -15,8 +15,9 @@ Los estilos se aplican inline en las etiquetas HTML.
 
 ## Cómo Ejecutar el Proyecto
 
-    1. **Clona el repositorio** desde GitHub:
+1. **Clona el repositorio** en tu máquina local:
     ```bash
     git clone https://github.com/gonzalovmm/Desarrollo-HTML
-    ```bash
-    2. **Abre el archivo `index.html`** en tu navegador web.
+    ```
+2. **Abre el archivo `index.html`** en tu navegador web.
+
