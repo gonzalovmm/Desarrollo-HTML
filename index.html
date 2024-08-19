@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="margin: 0; padding: 0;">
+    <header style="text-align: center; background-color: rgb(18, 18, 134); align-content: center;">
+        <h1 style="color: rgb(255, 255, 255);"> Practico HTML </h1>
+    </header>
+    <main style="padding-left: 15px; padding-right: 15px;">
+        <!--1 Estructura Básica del Documento HTML -->
+        <div id="estructura">
+            <h1>1. Estructura Básica del Documento HTML</h1>
+            <p>Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título. </p>
+        </div>
+        <!-- 2 Encabezados y Propiedades del Texto -->
+         <div>
+            <h1>2. Encabezados y Propiedades del Texto</h1>
+            <h2><b>Encabezado H2 en negrita</b></h2>
+            <h3><i>Encabezado H3 en cursiva</i></h3>
+            <h4><s>Encabezado H4 tachado</s></h4>
+            <h5><u>Encabezado H5 subrayado</u></h5>
+            <h6><mark>Encabezado H6 resaltado</mark></h6>
+         </div>
+         <!-- 3 Divisiones y Agrupación de Contenido -->
+         <div>
+            <h2>3. Divisiones y Agrupaciones</h2>
+            <section id="seccion1">
+                <h3>Sección 1</h3>
+                <p>Contenido de la primera sección agrupada en un div</p>
+            </section>
+            <section id="seccion2">
+                <h3>Sección 2</h3>
+                <p>Contenido de la segunda sección agrupada en un div</p>
+            </section>
+        </div>
+        <!-- 4 Enlaces y Listas -->
+        <div>
+            <h2>4. Enlaces y Listas</h2>
+            <p>Enlace a <a href="https://www.google.com/" target="_blank">Google</a></p>
+            <p>Lista de enlaces internos</p>
+            <ul>
+                <li><a href="#estructura">Ir a Estructura</a></li>
+                <li><a href="#multi">Ir a Elementos Multimedia</a></li>
+                <li><a href="#form">Ir a Formulario</a></li>
+            </ul>
+            <h2>Lista desordenada</h2>
+            <ul>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+            </ul>
+            <h2>Lista ordenada</h2>
+            <ol>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+            </ol>
+        </div>
+        <!-- 5 Elementos Multimedia -->
+        <div id="multi">
+            <h2>5. Elementos Multimedia</h2>
+            <img style="margin: 10px;" src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-930x487.jpg" alt="Imagen de Mario" width="300px" height="auto">
+            <video src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" controls width="300px"></video>
+            <audio style="margin: 10px;" src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls></audio> 
+        </div>
+        </div>
+        <!-- 6 Tablas -->
+        <div>
+            <h2>6. Tablas</h2>
+            <table style="border-collapse: collapse; text-align:    center;" width="max-content">
+                <thead style="background-color: rgb(248, 236, 122);">
+                    <tr>
+                        <th style="border: 1px solid">Columna 1</th>
+                        <th style="border: 1px solid">Columna 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid">Dato 1</td>
+                        <td style="border: 1px solid">Dato 2</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid">Dato 3</td>
+                        <td style="border: 1px solid">Dato 4</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td style="border: 1px solid; font-weight: bold;background-color:  rgb(181, 172, 97);">Total 1</td>
+                        <td style="border: 1px solid; font-weight: bold;background-color: rgb(181, 172, 97);">Total 2</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <!-- 7 Formularios -->
+        <div id="form">
+            <h2>7. Formularios</h2>
+            <form style="width: 300px; margin: 0 auto; padding: 20px; border: 1px solid #3361c3; border-radius: 5px; background-color: rgb(248, 236, 122);">
+                <label for="nombre" style="display: block; margin-bottom: 5px;">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+                <label for="email" style="display: block; margin-bottom: 5px;">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="mensaje" style="display: block; margin-bottom: 5px;">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" style="width: 60%;"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
+    <footer style=" margin-top: 20px; text-align: center; background-color: rgb(18, 18, 134); align-content: center;">
+        <h3 style="color: rgb(255, 255, 255);"> Practico HTML Gonzalo Van Megroot 3K10 </h3>
+    </footer>
+</body>
+
+</html>
